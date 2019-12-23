@@ -1,0 +1,26 @@
+# Check django version
+python -m django --version
+
+# Start the server
+python manage.py runserver
+
+# Apply migrations
+python manage.py migrate
+
+# Create app
+python manage.py startapp polls
+
+# Create migrations from apps
+python manage.py makemigrations polls
+
+# See the SQL that migration will run
+python manage.py sqlmigrate polls 0001
+
+# Interactive Shell
+python manage.py shell
+
+# Create super user
+python manage.py createsuperuser
+
+
+
