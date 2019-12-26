@@ -11,7 +11,7 @@ def find_duplicate(l):
             p = l[p]
             q = l[l[q]]
 
-        q = 0;
+        q = 0
         while p != q:
             p = l[p]
             q = l[q]
