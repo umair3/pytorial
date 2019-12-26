@@ -1,3 +1,6 @@
+# array element must be between 1 and n,
+# where n is the length of the array.
+
 
 def find_duplicate(a):
     for i in range(0, len(a)):
