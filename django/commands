@@ -1,3 +1,9 @@
+# Check Python Version
+python --version
+
+# Install Django
+pip install Django==2.2.6
+
 # Check django version
 python -m django --version
 
@@ -21,6 +27,3 @@ python manage.py shell
 
 # Create super user
 python manage.py createsuperuser
-
-
-
